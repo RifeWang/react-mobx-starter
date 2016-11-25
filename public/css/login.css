@@ -1,0 +1,24 @@
+#div_login{
+    /*background-color: #353535;*/
+    background-image: url("../img/blue-mountain.jpg");
+    background-size: cover;/*等比扩展图片来填满元素*/
+    height: 100vh;
+    width: 100vw;
+}
+.form_login{
+    position: relative;
+    top: 20vh;
+    left: 35vw;
+    text-align: center;
+    background-color: floralwhite;
+    width: 30vw;
+    height: 60vh;
+}
+.form_login h1{
+    padding: 15px;
+}
+.form_login Input{
+    width: 25vw;
+    margin: 6px;
+    padding: 20px;
+}
