@@ -36,13 +36,17 @@ class Abstract extends React.Component{
                             <p>前端工程文件分布示例如图:</p>
                             <br/>
                             <ul >
-                                <ul><pre>- public：存放工程所需的一些静态资源，例如图片`img`，样式文件`css`等。</pre></ul>
-                                <ul><pre>- global：存放全局性的变量或配置等，例如将与后台通信的`url`集中存放在此处。</pre></ul>
-                                <ul><pre>- component_page:存放页面组件，简而言之就是每个页面所对应的容器组件。</pre></ul>
-                                <ul><pre>- components：存放具体的组件单元，页面组件一般都是由这些组件单元组合而成。</pre></ul>
-                                <ul><pre>- router：存放路由文件，不同的页面对应不同的url并加载对应的页面组件。</pre></ul>
-                                <ul><pre>- action：存放组件进行数据操作时具体动作，例如`mobx`中的`@action`方法。</pre></ul>
-                                <ul><pre>- data：存放组件与后台通信相关的数据，例如`mobx`中`@observable`监视的数据。</pre></ul>
+                                <li><pre>- node_modules：工程依赖包存放文件夹。</pre></li>
+                                <li><pre>- public：存放工程所需的一些静态资源，例如图片`img`，样式文件`css`等。</pre></li>
+                                <li><pre>- action：存放组件进行数据操作时具体动作，例如`mobx`中的`@action`方法。</pre></li>
+                                <li><pre>- component_page:存放页面组件，简而言之就是每个页面所对应的容器组件。</pre></li>
+                                <li><pre>- components：存放具体的组件单元，页面组件一般都是由这些组件单元组合而成。</pre></li>
+                                <li><pre>- data：存放组件与后台通信相关的数据，例如`mobx`中`@observable`监视的数据。</pre></li>
+                                <li><pre>- global：存放全局性的变量或配置等，例如将与后台通信的`url`集中存放在此处。</pre></li>
+                                <li><pre>- router：存放路由文件，不同的页面对应不同的url并加载对应的页面组件。</pre></li>
+                                <li><pre>- index.html：浏览器默认加载的html文件，在此处引用工程打包后的js文件。</pre></li>
+                                <li><pre>- webpack.config.js：webpack打包配置文件。</pre></li>
+                                <li><pre>- package.json：工程信息描述文件。</pre></li>
                             </ul>
                         </div>
                     </Col>
